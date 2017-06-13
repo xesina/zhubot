@@ -1,0 +1,14 @@
+development:
+    driver: postgres
+    dsn: user=zhubot password=zhubot dbname=zhubot sslmode=disable
+    dir: db/migrations
+
+staging:
+    driver: postgres
+    dsn: user=zhubot password=zhubot dbname=zhubot sslmode=disable
+    dir: db/migrations
+
+production:
+    driver: postgres
+    dsn: user=zhubot password=zhubot dbname=zhubot sslmode=disable
+    dir: db/migrations
